@@ -9,10 +9,10 @@
   <link rel="shortcut icon" href="./favicon.png">
 
   <!--
-    Using specific version for production stability. See website for latest version:
+    Do not use @8 in production, use a complete version like x.x.x, see website for latest version:
     https://www.algolia.com/doc/guides/building-search-ui/installation/js/#load-the-styles
   -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@8.9.0/themes/satellite-min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@8/themes/satellite-min.css">
   <link rel="stylesheet" href="./src/index.css">
   <link rel="stylesheet" href="./src/app.css">
 
@@ -21,7 +21,7 @@
 
 <body>
   <div class="ais-InstantSearch">
-    <h1>Instant Search Demo</h1>
+    <h1>InstantSearch.js demo</h1>
   
     <div class="left-panel">
       <div id="clear-refinements"></div>
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.25.3/dist/algoliasearch-lite.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.85.2"></script>
   <script src="./src/app.js"></script>
 </body>
